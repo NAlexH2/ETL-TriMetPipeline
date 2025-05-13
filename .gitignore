@@ -1,0 +1,11 @@
+data_eng_key
+raw_data_files
+bc_subscriber_data_files
+sid_subscriber_data_files
+env
+__pycache__
+.vscode
+logs
+auth-playground.py
+*.tar
+stop_id_data
