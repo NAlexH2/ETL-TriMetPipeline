@@ -9,8 +9,8 @@ from pathlib import Path
 if __name__ == "__main__":
     sys.path.insert(0, str(Path(__file__).parents[2].absolute()))
 
-from src.subpipe.validate import ValidateBusData
-from src.subpipe.transform import BCDataTransformer
+from src.part2pipe.validate import ValidateBusData
+from src.part2pipe.transform import BCDataTransformer
 from src.utils.utils import (
     DATA_MONTH_DAY,
     BC_SUBSCRIBER_FOLDER,

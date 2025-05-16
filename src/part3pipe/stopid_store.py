@@ -9,7 +9,7 @@ from pathlib import Path
 if __name__ == "__main__":
     sys.path.insert(0, str(Path(__file__).parents[2].absolute()))
 
-from src.pipethree.stopid_transform import SIDDataTransformer
+from src.part3pipe.stopid_transform import SIDDataTransformer
 from src.utils.utils import (
     DATA_MONTH_DAY,
     SID_SUBSCRIBER_FOLDER,

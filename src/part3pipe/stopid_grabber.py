@@ -17,7 +17,7 @@ from src.utils.utils import (
     mdy_string,
     log_and_print,
 )
-from src.pipethree.stopid_publisher import PipelinePublisherSID
+from src.part3pipe.stopid_publisher import PipelinePublisherSID
 
 
 class DataGrabberSID:
