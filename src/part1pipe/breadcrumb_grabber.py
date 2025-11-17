@@ -1,4 +1,6 @@
-import json, shutil, requests, pandas as pd, os, sys, logging
+import json, shutil, requests, os, sys, logging
+import pandas as pd
+
 from pathlib import Path
 
 
