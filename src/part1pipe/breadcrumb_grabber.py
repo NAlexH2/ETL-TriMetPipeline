@@ -69,7 +69,7 @@ class DataGrabberBC:
 
     def data_grabber_main(self) -> None:
         # This function acts as the staging area for independent and combined
-        # running with the main.py app.
+        # running with the part1pub_main.py app.
         if os.path.exists(RAW_DATA_PATH):
             shutil.rmtree(RAW_DATA_PATH)
         os.makedirs(RAW_DATA_PATH)
