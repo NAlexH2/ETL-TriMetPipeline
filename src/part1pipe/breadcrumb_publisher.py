@@ -42,7 +42,7 @@ class PipelinePublisherBC:
         # set the topic path to publish to using the setup
         self.topic_path = self.publisher.topic_path(PROJECT_ID, TOPIC_ID)
 
-        # The following var is getting information from the main.py main
+        # The following var is getting information from the part1pub_main.py main
         # track to later be published. When this file is ran independently,
         # the file is loaded locally in to this var to then be published
         # outside of the normal track.
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     # folder exists) and then publishes them.
 
     # This only happens in this specific way if and only if this script is
-    # ran by itself. Otherwise it follows the main.py path.
+    # ran by itself.
     files_list = []
     if os.path.exists(RAW_DATA_PATH):
         files_list = os.listdir(RAW_DATA_PATH)
